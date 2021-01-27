@@ -57,13 +57,6 @@ F --> H((...))
 - trigger automatic testinsg
 - report downloading
 
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-
-And this will produce a flow chart:
-
-
 ## Credits
 Special thanks for ideas, bugfixes and reviews,  [Philipp Aigner](https://aignerelektronik.at)
 
