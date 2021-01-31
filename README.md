@@ -1,3 +1,4 @@
+
 # Welcome to OpenEVSEtester!
 
 Based on EVSim's documentation (available at https://evsim.gonium.net/) this project tries to automate some basic tests required by [SAE J1772](https://de.wikipedia.org/wiki/SAE_J1772).
@@ -35,19 +36,9 @@ E -- yes --> F[State C]
 F --> H((...))
 ```
 
-# Firmware (TBD!)
-## Requirements
-- switch PE breaker on/off: disconnect PE manually
-- PP {PP1, PP2, ..PP5} switches on/of
-- CP {STATE_A, STATE_B, .. STATE_E} switches on/off
-- single value reading: {L1, L2, L3} voltage, frequency, phasing
-- 3v3 switching on/off: power off display and CP measurement circuit
-- display selection (i2c vs. spi)
-- rotary encoder reading
-- prusa-like UI (display, rotary encoder)
-- automating tests like: switch to STATE B, read CP, switch to STATE C, read CP, read L1 to L3, advice user to connect installation tester to test RCD, ...
-- report generation
-- UI: mobile app
+# Firmware
+
+A ESP-IDF based firmware for this device can be found here: https://github.com/mistay/openevsetester_firmware/
 
 
 
